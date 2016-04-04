@@ -304,6 +304,7 @@ textarea.form-control {
 	font-size:26px;
 	height:65px;
 	width:65px;
+  margin-right: 30px;
 	display:block;
 	background-color:transparent;
 }

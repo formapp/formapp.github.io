@@ -133,7 +133,6 @@ jQuery(function ($) {
   (function () {
 		$('#ss-submit').on('click', function(){
       this.value = 'sending...';
-      this.submit();
 		});
 	}());
 
