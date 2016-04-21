@@ -36,6 +36,14 @@
   <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
+  <!-- Warning -->
+  <div style="position:fixed;top:0px;width:100%;height:120px;z-index:1000">
+    <div style="margin:0 auto;background:#800c0c;padding:40px;opacity:0.7">
+      <h4 style="color:#fff;text-align:center">Work in progress. App not deployed. Download links won't work.</h4>
+    </div>
+  </div>
+
+
 	<!-- Page Loader -->
 	<div class="preloader">
     <div id="loaderImage"></div>
@@ -98,17 +106,29 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-					<img class="img-responsive" src="images/whatsit.png" alt="">
+				<div class="col-sm-4 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
+					<img class="img-responsive" src="images/form.jpg" alt="">
 				</div>
+        <div class="col-sm-2"></div>
 				<div class="col-sm-6">
 					<div class="action-content wow slideInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						<h1>What is Form App</h1>
-						<h2>Create Forms and share it with data collectors</h2>
-						<p>Unique prepaid feature which enables you to pay as per your usage.</p>
-            <p>Integration of features like Camera, Geo-location, Signature.</p>
-            <p>Offline mode with on-click sync facility.</p>
-            <p>Let's make data collection easier than ever.</p>
+						<h1>What is FormApp?</h1>
+            <ul>
+              <li>
+                <h3>Create Forms and share it with data collectors</h3>
+              </li>
+              <li>
+                <h3>Offline mode with single touch cloud sync</h3>
+              </li>
+              <li>
+                <h3>Integration of features like Camera, Geo-location, Signature</h3>
+              </li>
+              <li>
+                <h3>Unique prepaid feature which enables you to pay as per your usage</h3>
+              </li>
+            </ul>
+
+            <h2>Let's make data collection easier than ever</h2>
 					</div>
 				</div>
 			</div>
@@ -126,31 +146,34 @@
 			<div class="all-features text-center">
 				<div class="row">
 					<div class="col-sm-3">
-						<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
-							<h2>Easy Recharge</h2>
-							<p>Pay according to usage</p>
-              <p>no fixed charges</p>
+            <div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s">
+							<h2>Easy to Create &amp; Share</h2>
+							<p>Drag drop to create</p>
+              <p>Copy Paste forms and fields in app</p>
 						</div>
-						<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
-							<h2>Super Fast</h2>
-							<p>No more waiting</p>
+
+            <div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
+							<h2>CSV Download</h2>
+							<p>Download all the responses in</p>
+              <p>CSV format</p>
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
-							<h2>Offline Usage</h2>
-							<p>Full access to form</p>
+            <div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.3s">
+              <h2>Full Offline Usage</h2>
+              <p>Full access to form</p>
               <p>in offline mode</p>
-						</div>
-						<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s">
-							<h2>Easy to Create & Share</h2>
-							<p>Drag drop to create</p>
-              <p>Copy paste to share</p>
+            </div>
+
+            <div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
+              <h2>Real time Google Sheets</h2>
+							<p>Work with a real-time updated</p>
+              <p>Google Sheet</p>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.4s">
-							<h2>On - click Sync</h2>
+							<h2>One touch Sync</h2>
 							<p>Fill forms offline</p>
               <p>sync later</p>
 						</div>
@@ -162,14 +185,15 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
-							<h2>Geo - location</h2>
+							<h2>Geolocation</h2>
 							<p>Inbuilt feature of collecting</p>
               <p>geo-location</p>
 						</div>
-						<div class="feature wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.6s">
-							<h2>CSV Download</h2>
-							<p>Download all the responses in</p>
-              <p>CSV format</p>
+
+            <div class="feature wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.2s">
+							<h2>Easy Recharge</h2>
+							<p>Pay according to usage</p>
+              <p>no fixed charges</p>
 						</div>
 					</div>
 
@@ -184,14 +208,13 @@
 			<div class="text-center section-title wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.1s">
 				<img class="img-responsive" src="images/icons/t6.png" alt="" />
 				<h1>Prices and Plans</h1>
-        <h1>1 Coin = 1 Record / Form Submission</h1>
 			</div>
 			<div class="prices text-center ">
 				<div class="row">
 					<div class="col-sm-3">
 						<div class="price wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">
 							<h1>Free</h1>
-							<h2>100 coins</h2>
+							<h2>100 records</h2>
 							<ul>
 								<li>No hidden charges</li>
 								<li>No Credit Card Required</li>
@@ -205,12 +228,12 @@
 					<div class="col-sm-3">
 						<div class="price wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.4s">
 							<h1>$3</h1>
-							<h2>1,000 coins</h2>
+							<h2>2,00 records</h2>
 							<ul>
 								<li>No hidden charges</li>
                 <li>Unlimited Forms</li>
 								<li>Prepaid Payment</li>
-								<li>0.3 cent/record</li>
+								<li>1.5 cent/record</li>
 								<li>Small businesses</li>
 							</ul>
 							<!--<a href="#" class="btn btn-primary btn-animated">Buy Now</a>-->
@@ -219,12 +242,12 @@
 					<div class="col-sm-3">
 						<div class="price featured wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.3s">
 							<h1>$10</h1>
-							<h2>6,000 coins</h2>
+							<h2>1,200 records</h2>
 							<ul>
 								<li>No hidden charges</li>
                 <li>Unlimited Forms</li>
 								<li>Prepaid Payment</li>
-								<li>0.167 cent/record</li>
+								<li>0.8 cent/record</li>
 								<li>Most Popular</li>
 							</ul>
 							<!--<a href="#" class="btn btn-primary btn-animated">Buy Now</a>-->
@@ -233,12 +256,12 @@
 					<div class="col-sm-3">
 						<div class="price wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.2s">
 							<h1>$30</h1>
-							<h2>30,000 coins</h2>
+							<h2>6,000 records</h2>
 							<ul>
 								<li>No hidden charges</li>
                 <li>Unlimited Forms</li>
 								<li>Prepaid Payment</li>
-								<li>0.1 cent/record</li>
+								<li>0.5 cent/record</li>
 								<li>Large businesses</li>
 							</ul>
 							<!--<a href="#" class="btn btn-primary btn-animated">Buy Now</a>-->
