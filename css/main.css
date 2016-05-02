@@ -433,9 +433,13 @@ textarea.form-control {
 .feature h2{
 	margin-top:5px;
 	margin-bottom:25px;
+  font-size: 22px;
 	color:#888888;
 }
 
+.feature p{
+	color:#888888;
+}
 
 /*================================
 ========= Screenshots Section ==========
