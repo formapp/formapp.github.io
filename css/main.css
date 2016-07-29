@@ -857,3 +857,11 @@ img.mfp-img {
   font-family: 'Open Sans';
   color: #fff
 }
+
+.marg-left-16 {
+  margin-left: 16px;
+}
+
+.marg-top-32 {
+  margin-top: 32px;
+}
