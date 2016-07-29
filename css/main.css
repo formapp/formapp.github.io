@@ -841,3 +841,19 @@ img.mfp-img {
 .demo-chooser-inner ul li.active a {
 	cursor:default;
 }
+
+/* ============== v 2 ============*/
+
+.subscribe {
+	background: rgb(5,195,249);
+}
+
+.padding-v2{
+	padding:80px 0;
+}
+
+#normal-text {
+  text-transform: none;
+  font-family: 'Open Sans';
+  color: #fff
+}
