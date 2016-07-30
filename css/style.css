@@ -35,6 +35,10 @@ body {
   color: #05c3f9;
 }
 
+.text-dark {
+  color: #484848;
+}
+
 .text-center {
   text-align: center;
 }
