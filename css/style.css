@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.fill-screen {
+  height: 100%;
+}
+
+.logo-img {
+  margin-top: 50px;
+  width: 250px;
+}
+
+.brand-bg {
+  background: #05c3f9;
+}
+
+.logo-img-2 {
+  margin-top: 150px;
+}
+
+.text-std {
+  color: #777;
+}
+
+.text-success {
+  color: #5cb85c;
+}
+
+.text-brand {
+  color: #05c3f9;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.marg-top-50 {
+  margin-top: 50px;
+}
+
+.marg-top-20 {
+  margin-top: 20px;
+}
+
+.marg-top-10 {
+  margin-top: 10px;
+}
