@@ -23,12 +23,12 @@ function toggleAppLogoFloaterVisibility() {
 }
 
 $(function () {
-  $(window).on('resize', sizeBanner);
-  sizeBanner();
+  // $(window).on('resize', sizeBanner);
+  // sizeBanner();
 
-  $(window).on('scroll', toggleAppDownloadFloaterVisibility);
-  toggleAppDownloadFloaterVisibility();
-
-  $(window).on('scroll', toggleAppLogoFloaterVisibility);
-  toggleAppLogoFloaterVisibility();
+  // $(window).on('scroll', toggleAppDownloadFloaterVisibility);
+  // toggleAppDownloadFloaterVisibility();
+  //
+  // $(window).on('scroll', toggleAppLogoFloaterVisibility);
+  // toggleAppLogoFloaterVisibility();
 });
