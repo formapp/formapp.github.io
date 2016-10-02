@@ -73,6 +73,12 @@ body {
   margin-top: 50px;
 }
 
+@media (min-width: 768px) {
+  .slogan {
+    margin-top: 100px;
+  }
+}
+
 .text-slogan-sub>a {
   text-decoration: underline;
   font-weight: 700;
