@@ -33,7 +33,7 @@
 
         <div class="row marg-sm-top-100 marg-xs-top-50">
           <div class="col-sm-6 col-sm-offset-3">
-            <button class="btn btn-brand btn-lg full-width">
+            <button class="btn btn-brand btn-lg full-width" data-toggle="modal" data-target="#book-modal">
               BOOK A DEMO
             </button>
           </div>
@@ -118,7 +118,7 @@
             Find out what FlowApp can do for you
           </h3>
 
-          <button class="btn btn-brand btn-lg full-width marg-xs-top-20">
+          <button class="btn btn-brand btn-lg full-width marg-xs-top-20" data-toggle="modal" data-target="#book-modal">
             BOOK A DEMO
           </button>
         </div>
@@ -173,7 +173,7 @@
           <div class="col-sm-4">
             <h3 class="text-center">Step 1</h3>
 
-            <button class="btn btn-lg btn-brand full-width marg-xs-top-75 marg-sm-top-75">
+            <button class="btn btn-lg btn-brand full-width marg-xs-top-75 marg-sm-top-75" data-toggle="modal" data-target="#book-modal">
               BOOK A DEMO
             </button>
           </div>
@@ -211,6 +211,47 @@
       </div>
     </div>
   </div>
+
+  <div class="modal modal-fade" id="book-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+          <h4 class="modal-title" id="book-modal-label">Book Demo</h4>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
+                <div id="iframe-container">
+                  <iframe src="https://app.flowapp.in/webbot.html?token=QOGgCUExMLUT" frameborder="0" style="width:100%;height:100%;"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      function sizeIFrameContainer() {
+        var $container = $('#iframe-container');
+        var screenHeight = window.screen.height;
+
+        $container.css({height: 0.6 * screenHeight});
+      }
+
+      sizeIFrameContainer();
+      $(window).on('resize', sizeIFrameContainer);
+    });
+  </script>
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
