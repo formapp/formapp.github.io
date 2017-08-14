@@ -14,6 +14,10 @@ body {
   width: 100%;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .brand-bg {
   background: #05c3f9;
 }
@@ -46,6 +50,24 @@ body {
   width: 100%
 }
 
+.text-huge {
+  font-size: 4em;
+}
+
+.text-xl {
+  font-size: 7em;
+}
+
+.center-logo {
+  width: 150px;
+  margin-left: calc(50% - 75px);
+}
+
+.center-customer {
+  width: 100px;
+  margin-left: calc(50% - 50px);
+}
+
 .pitch {
   line-height: 1.5em;
   font-weight: 500;
@@ -69,12 +91,41 @@ body {
 }
 
 .slogan {
-  z-index: 2;
   margin-top: 50px;
 }
 
 @media (min-width: 768px) {
   .slogan {
+    margin-top: 100px;
+  }
+
+  .marg-sm-top-30 {
+    margin-top: 30px;
+  }
+
+  .marg-sm-top-100 {
+    margin-top: 100px;
+  }
+
+  .marg-sm-top-50 {
+    margin-top: 50px;
+  }
+
+  .marg-sm-top-75 {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 767px) {
+  .marg-xs-top-50 {
+    margin-top: 50px;
+  }
+
+  .marg-xs-top-75 {
+    margin-top: 75px;
+  }
+
+  .marg-xs-top-100 {
     margin-top: 100px;
   }
 }
@@ -85,7 +136,7 @@ body {
 }
 
 .text-slogan-sub>a:hover {
-  color: #fff;
+  color: #777;
 }
 
 .download-floater {
@@ -146,4 +197,24 @@ button.btn-success:hover {
 
 button.btn-success:active {
   background-color: #46a046;
+}
+
+.btn-brand {
+  background-color: #05c3f9;
+  color: #fff;
+}
+
+.btn-brand:hover {
+  background-color: #05b1e1;
+  color: #fff;
+}
+
+.btn-brand:focus {
+  background-color: #05b1e1;
+  color: #fff;
+}
+
+.btn-brand:active {
+  background-color: #049dc8;
+  color: #fff;
 }
